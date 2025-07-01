@@ -1,0 +1,26 @@
+# Ignore all folders
+*/
+
+# But keep top-level source files
+!app.py
+!pipeline.py
+!problem.py
+!generator_example.cpp
+!ideas.jsonl
+!input.jsonl
+!ID.txt
+
+# Explicitly ignore problem output directories
+1/
+2/
+9/
+10/
+
+# Ignore Python cache
+__pycache__/
+
+# Optional: Ignore VSCode settings, system files, etc.
+.vscode/
+.DS_Store
+*.pyc
+*.pyo
